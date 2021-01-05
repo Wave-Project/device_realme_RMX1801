@@ -6,7 +6,7 @@
     "branch"     : "eas3"
   },
   {
-    "repository" : "vendor_realme",
-    "target_path": "vendor/realme"
+    "repository" : "vendor_realme_RMX1801",
+    "target_path": "vendor/realme/RMX1801"
   }
 ]

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_RMX1801.mk
+    $(LOCAL_DIR)/wave_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_RMX1801-user \
-    cesium_RMX1801-userdebug \
-    cesium_RMX1801-eng
+    wave_RMX1801-user \
+    wave_RMX1801-userdebug \
+    wave_RMX1801-eng
