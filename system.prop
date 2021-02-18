@@ -54,6 +54,10 @@ persist.vendor.qti.telephony.vt_cam_interface=1
 #GBoard
 ro.com.google.ime.kb_pad_port_b=1
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+
 # Media
 audio.offload.video=true
 media.aac_51_output_enabled=true
