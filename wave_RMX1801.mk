@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common WaveOS stuff
 $(call inherit-product, vendor/wave/configs/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+VANILLA_BUILD := true
 
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
