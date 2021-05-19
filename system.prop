@@ -92,3 +92,6 @@ ro.vendor.sensors.sta_detect=true
 # SSR
 persist.vendor.ssr.enable_ramdumps=0
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# WaveOS
+ro.wave.device_name=Realme 2 Pro
