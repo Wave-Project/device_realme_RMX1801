@@ -2,6 +2,10 @@ allow hal_power_default debugfs_wlan:dir search;
 allow hal_power_default debugfs_wlan:file r_file_perms;
 allow hal_power_default proc_touchpanel:dir search;
 allow hal_power_default proc_touchpanel:file w_file_perms;
+allow hal_power_default sysfs_kgsl:lnk_file read;
+allow hal_power_default sysfs_devfreq:file { write open };
+allow hal_power_default sysfs_devfreq:dir search;
+allow hal_power_default sysfs_kgsl:file { write open };
 
 r_dir_file(hal_power_default, debugfs_rpm)
 
