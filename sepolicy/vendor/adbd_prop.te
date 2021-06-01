@@ -1,1 +1,0 @@
-allow adbd_prop adbd_prop:file { getattr  open  read };

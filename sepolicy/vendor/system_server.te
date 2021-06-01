@@ -3,7 +3,4 @@ allow system_server sysfs_vibrator:file rw_file_perms;
 
 get_prop(system_server, oppo_loc_prop)
 
-allow system_server exported_camera_prop:file { read };
-allow system_server crash_dump:process { getpgid };
-allow system_server app_zygote:process { getpgid };
 get_prop(system_server, exported_camera_prop)

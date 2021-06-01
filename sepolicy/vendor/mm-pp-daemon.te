@@ -1,1 +1,0 @@
-allow mm-pp-daemon sysfs_msm_subsys:dir search;
