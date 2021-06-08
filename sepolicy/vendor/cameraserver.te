@@ -1,1 +1,2 @@
 binder_call(cameraserver, mediacodec)
+allow cameraserver property_socket:sock_file write;
