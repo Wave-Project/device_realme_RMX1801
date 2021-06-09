@@ -67,8 +67,8 @@ public class TiltSensor implements SensorEventListener {
 
         mEntryTimestamp = SystemClock.elapsedRealtime();
 
-        if (event.values[0] == 0) {
-            DozeUtils.launchDozePulse(mContext);
+        if (event.values[0] == 1) {
+            DozeUtils.wakeOrLaunchDozePulse(mContext);
         }
     }
 
