@@ -5,3 +5,4 @@ get_prop(system_server, oppo_loc_prop)
 get_prop(system_server, exported_camera_prop)
 
 allow system_server app_zygote:process getpgid;
+allow system_server crash_dump:process getpgid;
