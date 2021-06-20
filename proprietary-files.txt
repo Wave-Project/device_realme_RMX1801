@@ -3076,6 +3076,9 @@ vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
+# QTI Telephony - from LA.QSSI.11.0.r1-11600-qssi.0
+system_ext/framework/qti-telephony-common.jar|95df25f17305ad570f1b1e0fa59534edce6619f8
+
 # QMI
 etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
